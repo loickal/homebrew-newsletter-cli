@@ -15,12 +15,12 @@ cask "newsletter-cli" do
     on_intel do
       url "https://github.com/loickal/newsletter-cli/releases/download/v#{version}/newsletter-cli_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/loickal/newsletter-cli"
-      sha256 "9214f0a76704b40dd8e2f8c7452588fc867b60bceceaec327151d00dc1a1bbca"
+      sha256 "0f0719b97a946115641b1e99793e506cd88a92d308d920f7107f72a2ed4b8908"
     end
     on_arm do
       url "https://github.com/loickal/newsletter-cli/releases/download/v#{version}/newsletter-cli_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/loickal/newsletter-cli"
-      sha256 "3d9ca9ae0c6b38590b186de783985d58153129936b57cc3b3f8a642687b5a503"
+      sha256 "25f3abc6481d23361df4a847797258ef8e86471e750b906a16bb70fa0b373e8d"
     end
   end
 
@@ -28,12 +28,12 @@ cask "newsletter-cli" do
     on_intel do
       url "https://github.com/loickal/newsletter-cli/releases/download/v#{version}/newsletter-cli_#{version}_linux_amd64.tar.gz",
         verified: "github.com/loickal/newsletter-cli"
-      sha256 "4548d57e999fb9a1e0e3cab2aa15bc7b00670fe91a8940acca81c86fc22ffdb5"
+      sha256 "2b738fc74717457e8d94b497ffd9965a61e37582253b45b4802bd5194edc7095"
     end
     on_arm do
       url "https://github.com/loickal/newsletter-cli/releases/download/v#{version}/newsletter-cli_#{version}_linux_arm64.tar.gz",
         verified: "github.com/loickal/newsletter-cli"
-      sha256 "21a3bcd2219a74526c6324e6cc46f8aabaa9c92e077cfa483fe29f3acce69cd0"
+      sha256 "1f8fc7e4a03d7b17178d1a35e29de9a302fce482a9b75966ca73cb23c24b2d45"
     end
   end
 
