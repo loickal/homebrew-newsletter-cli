@@ -3,7 +3,7 @@ cask "newsletter-cli" do
   name "newsletter-cli"
   desc "A beautiful, privacy-friendly CLI tool to analyze and unsubscribe from newsletters."
   homepage "https://github.com/loickal/newsletter-cli"
-  version "0.1.1"
+  version "0.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "newsletter-cli" do
     on_intel do
       url "https://github.com/loickal/newsletter-cli/releases/download/v#{version}/newsletter-cli_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/loickal/newsletter-cli"
-      sha256 "465b2ac7bae8419525d8e5738604f42dacea50e60c84492008606c6b41ef385f"
+      sha256 "daa1b4665ad3d67f6896967c4f1ecb66d9ff603debe47f8ab61f7d00dd3ead3c"
     end
     on_arm do
       url "https://github.com/loickal/newsletter-cli/releases/download/v#{version}/newsletter-cli_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/loickal/newsletter-cli"
-      sha256 "0feff7429c6dcddd1ca349806b10a1395e65b4a0510cbf4cca9fb41829d8d83b"
+      sha256 "55f186063d880a7f62ddb8c2f9a40aeffbd8e1caddec2dafbf36861dc33456c1"
     end
   end
 
@@ -28,12 +28,12 @@ cask "newsletter-cli" do
     on_intel do
       url "https://github.com/loickal/newsletter-cli/releases/download/v#{version}/newsletter-cli_#{version}_linux_amd64.tar.gz",
         verified: "github.com/loickal/newsletter-cli"
-      sha256 "0b825e8218530d4343c894e53f6edb009d645dddc38020fbdd604a2d1dbbc094"
+      sha256 "98b40e172a939bc12a1447e724dc67c2a54516152c86e1f9d5b5e31ee493c68c"
     end
     on_arm do
       url "https://github.com/loickal/newsletter-cli/releases/download/v#{version}/newsletter-cli_#{version}_linux_arm64.tar.gz",
         verified: "github.com/loickal/newsletter-cli"
-      sha256 "70b29e3a62ac23e4be5f42c229da1a62ffbb17ad835693b1629bb565fae9feb9"
+      sha256 "2f2349dce6cafff1bd7b1cba07afcdcbccfd8feaceb924ca9e7e4b074395da97"
     end
   end
 
